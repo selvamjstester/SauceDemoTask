@@ -1,0 +1,62 @@
+Selvam JS
+selvamjs03@gmail.com
+06/07/2023
+
+Subject: Summary of Work Done - Interview Task
+
+Dear Preethi,
+
+I am writing to provide a summary of the work I have completed for the interview task. I appreciate the opportunity to showcase my skills and demonstrate my understanding of various testing concepts and frameworks. Below is an overview of the components and features I have developed:
+
+* BaseClass:
+
+Created a BaseClass to initialize the WebDriver, set up the browser configuration, and manage the driver instances.
+Implemented methods for taking screenshots before and after each scenario.
+
+
+* Page Object Model (POM):
+
+Implemented POM classes for each page of the application, following the POM design pattern.
+Encapsulated the web elements and their corresponding actions within the respective POM classes.
+Created methods to interact with the elements and perform actions on the pages.
+
+* Page Object Manager (POM):
+
+Implemented a Page Object Manager to handle the initialization and management of POM instances.
+Ensured that each POM class is instantiated only once and accessed through the Page Object Manager.
+
+* Feature File:
+
+Created a feature file that includes three scenarios, covering different functionalities of the application.
+Utilized Cucumber's DataTable feature within one of the scenarios to handle tabular data input.
+
+* Step Definitions:
+
+Developed step definitions corresponding to the scenarios defined in the feature file.
+Implemented step definitions to interact with the POM classes, calling appropriate methods for each step.
+
+*Helper Package:
+
+Implemented a property file to store browser and URL configurations, allowing easy modification.
+Developed a Configuration Reader to read and retrieve values from the property file.
+Created a FileReader Manager to manage the configuration reader and other file-related operations.
+
+* Cucumber Runner Class:
+
+Configured the Cucumber runner class using the @CucumberOptions annotation.
+Specified the glue path, features directory, and plugin for generating different types of reports.
+Integrated Cucumber Extent Report, HTML report, JSON report, and PDF report plugins for comprehensive reporting.
+I am pleased to share that I have successfully executed the test scenarios and obtained the desired reports, including the Cucumber Extent Report. The reports provide detailed information about the test execution, test steps, and their outcomes. Additionally, screenshots were captured before and after each scenario, enabling easy identification of any failures or errors encountered during the execution.
+
+* Bugs Found
+Scenario 2 : Failed Login
+
+I thoroughly enjoyed working on this interview task, as it allowed me to demonstrate my skills in test automation, using Cucumber, Selenium WebDriver, and various reporting plugins. I believe that the features and components I have implemented effectively showcase my understanding of industry-standard practices and frameworks.
+
+I would be more than happy to discuss any aspects of the task or provide further details as required. I look forward to the opportunity to discuss my work during the interview.
+
+Thank you for considering my application, and I appreciate your time and attention.
+
+Sincerely,
+
+Selvam JS
